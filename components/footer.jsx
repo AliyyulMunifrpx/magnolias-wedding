@@ -31,7 +31,6 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
           <Link
             href='#contact'
-            target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 bg-second text-black whitespace-nowrap font-sans text-xs uppercase tracking-[0.2em] font-bold rounded-full hover:bg-white transition-colors duration-300"
           >

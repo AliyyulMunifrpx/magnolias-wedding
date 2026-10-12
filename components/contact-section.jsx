@@ -105,7 +105,7 @@ export default function ContactSection() {
               <span className="text-xs uppercase tracking-[0.2em] text-second">
                 Direct Concierge
               </span>
-              <p className="font-serif text-lg text-black">
+              <p className="font-sans text-lg text-black">
                 {information.phoneDisplay}
               </p>
             </div>
@@ -114,7 +114,7 @@ export default function ContactSection() {
               <span className="text-xs uppercase tracking-[0.2em] text-second">
                 Email Inquiry
               </span>
-              <p className="font-serif text-lg text-black">
+              <p className="font-sans text-lg text-black">
                 {information.email}
               </p>
             </div>
@@ -147,7 +147,7 @@ export default function ContactSection() {
 
           <form onSubmit={handleSubmit} className="flex flex-col gap-8">
             <div className="flex flex-col gap-2">
-              <h3 className="font-serif text-2xl text-second2 font-normal">
+              <h3 className="font-sans text-2xl text-second2 font-normal">
                 Private Consultation Form
               </h3>
               <p className="font-sans text-xs text-second2/60">
@@ -169,7 +169,7 @@ export default function ContactSection() {
                   value={formData.name}
                   onChange={handleChange}
                   placeholder="e.g. Clarissa & Raditya"
-                  className="w-full bg-primary/50 border border-second2/10 px-4 py-4 text-sm text-black focus:outline-none focus:border-second transition-colors"
+                  className="w-full bg-primary/50 border border-second2/10 px-4 py-4 text-sm text-black focus:outline-none focus:border-second transition-colors font-sans"
                 />
               </div>
 
@@ -185,7 +185,7 @@ export default function ContactSection() {
                   value={formData.phone}
                   onChange={handleChange}
                   placeholder="e.g. 08123456789"
-                  className="w-full bg-primary/50 border border-second2/10 px-4 py-4 text-sm text-black focus:outline-none focus:border-second transition-colors"
+                  className="w-full bg-primary/50 border border-second2/10 px-4 py-4 text-sm text-black focus:outline-none focus:border-second transition-colors font-sans"
                 />
               </div>
             </div>
@@ -202,7 +202,7 @@ export default function ContactSection() {
                   value={formData.weddingDate}
                   onChange={handleChange}
                   placeholder="e.g. Q4 2026 / Oct 2026"
-                  className="w-full bg-primary/50 border border-second2/10 px-4 py-4 text-sm text-black focus:outline-none focus:border-second transition-colors"
+                  className="w-full bg-primary/50 border border-second2/10 px-4 py-4 text-sm text-black focus:outline-none focus:border-second transition-colors font-sans"
                 />
               </div>
 
@@ -217,7 +217,7 @@ export default function ContactSection() {
                   value={formData.guestCount}
                   onChange={handleChange}
                   placeholder="e.g. 300 - 500 guests"
-                  className="w-full bg-primary/50 border border-second2/10 px-4 py-4 text-sm text-black focus:outline-none focus:border-second transition-colors"
+                  className="w-full bg-primary/50 border border-second2/10 px-4 py-4 text-sm text-black focus:outline-none focus:border-second transition-colors font-sans"
                 />
               </div>
             </div>
@@ -231,7 +231,7 @@ export default function ContactSection() {
                 name="service"
                 value={formData.service}
                 onChange={handleChange}
-                className="w-full bg-primary border border-second2/10 px-4 py-4 text-sm text-black focus:outline-none focus:border-second transition-colors cursor-pointer"
+                className="w-full bg-primary border border-second2/10 px-4 py-4 text-sm text-black focus:outline-none focus:border-second transition-colors cursor-pointer font-sans"
               >
                 <option value="Full Wedding Planning">
                   Full Wedding Planning
@@ -255,7 +255,7 @@ export default function ContactSection() {
                 value={formData.message}
                 onChange={handleChange}
                 placeholder="Tell us about your wedding concept, location, or any specific requests..."
-                className="w-full bg-primary/50 border border-second2/10 p-4 text-sm text-black focus:outline-none focus:border-second transition-colors resize-none"
+                className="w-full bg-primary/50 border border-second2/10 p-4 text-sm text-black focus:outline-none focus:border-second transition-colors resize-none font-sans"
               />
             </div>
 
